@@ -1,0 +1,15 @@
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: grey 0.3s ease;
+    background-color:grey;
+}
+
+.cell.highlighted {
+    background-color: #ffe082; /* Change to your preferred highlight color */
+}
